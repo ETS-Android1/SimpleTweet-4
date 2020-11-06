@@ -16,11 +16,11 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:ems="10"
+        android:maxLength="140"
         android:gravity="start|top"
         android:hint="What's happening?"
         android:inputType="textMultiLine"
         android:minLines="5" />
-
     <Button
         android:id="@+id/btnTweet"
         android:layout_width="wrap_content"
@@ -29,5 +29,18 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
+        android:background="@color/twitter_blue_30"
         android:text="@string/tweet" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCompose"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/btnTweet"
+        android:textColor="@color/medium_red_50"
+        tools:text="count" />
 </RelativeLayout>
