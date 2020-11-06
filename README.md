@@ -2,7 +2,7 @@
 
 **Simple Tweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-## Simple Tweet Part 1
+## Simple Tweet Part 2
 
 Time spent: **8** hours spent in total
 
@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/vchou105/SimpleTweet/blob/master/walkThroughPt2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -52,7 +52,7 @@ I spent a long time trying to figure out the error I had when using Room and SQL
 
 ---
 
-## Simple Tweet Part 2
+## Simple Tweet Part 1
 
 Time spent: **8** hours spent in total
 
